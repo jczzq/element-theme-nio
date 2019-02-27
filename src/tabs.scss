@@ -149,16 +149,16 @@
   }
   @include m(card) {
     > .el-tabs__header {
-      border-bottom: 1px solid $--border-color-light;
+      margin: 0;
+      border-bottom: 1px solid #F7F7F8;
+      background-color: white;
     }
     > .el-tabs__header .el-tabs__nav-wrap::after {
       content: none;
     }
     > .el-tabs__header .el-tabs__nav {
-      border: 1px solid $--border-color-light;
-      border-bottom: none;
-      border-radius: 4px 4px 0 0;
       box-sizing: border-box;
+      border: none;
     }
     > .el-tabs__header .el-tabs__active-bar {
       display: none;
@@ -176,8 +176,11 @@
       transform-origin: 100% 50%;
     }
     > .el-tabs__header .el-tabs__item {
-      border-bottom: 1px solid transparent;
-      border-left: 1px solid $--border-color-light;
+      height: 20px;
+      line-height: 20px;
+      font-weight:bold;
+      margin: 20px 0;
+      border-left: 1px solid #DDDDDD;
       transition: color .3s cubic-bezier(.645,.045,.355,1), padding .3s cubic-bezier(.645,.045,.355,1);
       &:first-child {
         border-left: none;

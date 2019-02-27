@@ -4,8 +4,9 @@
 @import "select";
 
 @include b(pagination) {
+  background-color: white;
   white-space: nowrap;
-  padding: 2px 5px;
+  padding: 18px 20px;
   color: $--pagination-color;
   font-weight: bold;
   @include utils-clearfix;
