@@ -8,7 +8,11 @@ UI参考: https://lanhuapp.com/web/?code=081NRAsf0HI83v1Cb0qf0TyIsf0NRAs9&state=
 
 ## Installation
 ```shell
-npm i git@git.nevint.com:DO-platform-lace/element-theme-nio.git -S
+npm i git+https://git@git.nevint.com/DO-platform-lace/element-theme-nio.git -D
+
+# or
+
+npm i git+ssh://git@git.nevint.com/DO-platform-lace/element-theme-nio.git -D
 ```
 
 ## Usage
