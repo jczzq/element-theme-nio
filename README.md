@@ -27,6 +27,22 @@ Or Use webpack
 import 'element-theme-nio';
 ```
 
+构建时按需引入主题需要在`babel.config.js`设置`styleLibraryName`
+```
+module.exports = {
+  presets: ["@vue/app"],
+  plugins: [
+    [
+      "component",
+      {
+        libraryName: "element-ui",
+        styleLibraryName: "~node_modules/element-theme-nio/lib"
+      }
+    ]
+  ]
+};
+```
+
 Or
 ```html
 <link rel="stylesheet" href="path/to/node_modules/element-theme-nio/lib/index.css">
