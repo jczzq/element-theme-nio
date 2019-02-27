@@ -1,0 +1,35 @@
+{
+  "name": "element-theme-nio",
+  "version": "0.0.1",
+  "description": "Element component nio theme.",
+  "main": "lib/index.css",
+  "style": "lib/index.css",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.nevint.com/DO-platform-lace/element-theme-nio.git"
+  },
+  "keywords": [
+    "element",
+    "theme"
+  ],
+  "author": "chao.jin.o@nio.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://git.nevint.com/DO-platform-lace/element-theme-nio/issues"
+  },
+  "homepage": "https://git.nevint.com/DO-platform-lace/element-theme-nio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^3.1.0",
+    "gulp-autoprefixer": "^4.0.0"
+  },
+  "dependencies": {}
+}
