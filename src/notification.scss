@@ -53,8 +53,8 @@
 
   @include e(closeBtn) {
     position: absolute;
-    top: 18px;
-    right: 15px;
+    top: 8px;
+    right: 8px;
     cursor: pointer;
     color: $--notification-close-color;
     font-size: $--notification-close-font-size;

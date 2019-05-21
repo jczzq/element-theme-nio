@@ -32,13 +32,13 @@
 
   @include e(header) {
     padding: $--dialog-padding-primary;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
   }
 
   @include e(headerbtn) {
     position: absolute;
-    top: $--dialog-padding-primary;
-    right: $--dialog-padding-primary;
+    top: 16px;
+    right: 16px;
     padding: 0;
     background: transparent;
     border: none;
@@ -64,14 +64,14 @@
   }
 
   @include e(body) {
-    padding: 30px 20px;
+    padding: 8px $--dialog-padding-primary;
     color: $--color-text-regular;
     font-size: $--dialog-font-size;
   }
 
   @include e(footer) {
-    padding: $--dialog-padding-primary;
-    padding-top: 10px;
+    padding: 16px $--dialog-padding-primary;
+    padding-top: 8px;
     text-align: right;
     box-sizing: border-box;
   }
@@ -80,9 +80,14 @@
   @include m(center) {
     text-align: center;
 
+    @include e(header) {
+      padding: $--dialog-padding-primary;
+      padding-bottom: 16px;
+    }
+
     @include e(body) {
       text-align: initial;
-      padding: 25px ($--dialog-padding-primary + 5px) 30px;
+      padding: 8px $--dialog-padding-primary;
     }
 
     @include e(footer) {
