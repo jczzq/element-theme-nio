@@ -1,6 +1,7 @@
 const path = require("path");
 
 module.exports = {
+  publicPath: "./",
   pages: {
     index: "example/main.js"
   },
