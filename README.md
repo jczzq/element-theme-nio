@@ -1,9 +1,12 @@
 # element-theme-nio
 基于`element-ui`的个性主题。
+![stars](https://img.shields.io/github/stars/jczzq/element-theme-nio.svg)
+![issues](https://img.shields.io/github/issues/jczzq/element-theme-nio.svg)
+![forks](https://img.shields.io/github/forks/jczzq/element-theme-nio.svg)
 
-> fork自 [element-theme-chalk](https://github.com/ElementUI/theme-chalk)
+<a href="https://github.com/jczzq/element-theme-nio" target="_blank"> Github </a>
 
-由于参考UI细节不够完整，所以还有很大的优化空间，欢迎提pr补充细节
+<a href="https://blog.jczzq.com/element-theme-nio/index.html#/" target="_blank"> 示例 </a>
 
 ## Installation
 ```bash
