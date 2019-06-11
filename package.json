@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git.nevint.com/DO-platform-lace/element-theme-nio.git"
+    "url": "git+https://github.com/jczzq/element-theme-nio.git"
   },
   "keywords": [
     "element",
@@ -25,9 +25,9 @@
   "author": "chao.jin.o@nio.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://git.nevint.com/DO-platform-lace/element-theme-nio/issues"
+    "url": "https://github.com/jczzq/element-theme-nio/issues"
   },
-  "homepage": "https://git.nevint.com/DO-platform-lace/element-theme-nio#readme",
+  "homepage": "https://github.com/jczzq/element-theme-nio#readme",
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
