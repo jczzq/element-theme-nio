@@ -6,7 +6,7 @@
 @include b(dialog) {
   position: relative;
   margin: 0 auto 50px;
-  background: $--color-white;
+  background: $--dialog-background-color;
   border-radius: $--border-radius-small;
   box-shadow: $--dialog-box-shadow;
   box-sizing: border-box;
@@ -32,13 +32,13 @@
 
   @include e(header) {
     padding: $--dialog-padding-primary;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
   }
 
   @include e(headerbtn) {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: $--dialog-padding-primary;
+    right: $--dialog-padding-primary;
     padding: 0;
     background: transparent;
     border: none;
@@ -58,20 +58,21 @@
   }
 
   @include e(title) {
-    line-height: $--dialog-line-height;
+    line-height: $--dialog-font-line-height;
     font-size: $--dialog-title-font-size;
     color: $--color-text-primary;
   }
 
   @include e(body) {
-    padding: 8px $--dialog-padding-primary;
+    padding: 30px 20px;
     color: $--color-text-regular;
-    font-size: $--dialog-font-size;
+    font-size: $--dialog-content-font-size;
+    word-break: break-all;
   }
 
   @include e(footer) {
-    padding: 16px $--dialog-padding-primary;
-    padding-top: 8px;
+    padding: $--dialog-padding-primary;
+    padding-top: 10px;
     text-align: right;
     box-sizing: border-box;
   }
@@ -80,14 +81,9 @@
   @include m(center) {
     text-align: center;
 
-    @include e(header) {
-      padding: $--dialog-padding-primary;
-      padding-bottom: 16px;
-    }
-
     @include e(body) {
       text-align: initial;
-      padding: 8px $--dialog-padding-primary;
+      padding: 25px ($--dialog-padding-primary + 5px) 30px;
     }
 
     @include e(footer) {
