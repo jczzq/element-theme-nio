@@ -5,8 +5,8 @@ import store from "./store";
 
 Vue.config.productionTip = false;
 
-// import "src/index.scss";
-import "lib/index.css";
+import "src/index.scss";
+// import "lib/index.css";
 
 import ElementUI from "element-ui";
 Vue.use(ElementUI);
