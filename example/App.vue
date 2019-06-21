@@ -116,6 +116,31 @@
           </span>
         </el-dialog>
       </el-tab-pane>
+
+      <el-tab-pane label="Table">
+        <h3>
+          $--table-header-background-color: #F0FCFC !default;
+        </h3>
+        <h3>
+          $--table-header-font-color: #00263C !default;
+        </h3>
+        <el-table :data="tableData" style="width: 100%">
+          <el-table-column prop="date" label="日期" width="180">
+          </el-table-column>
+          <el-table-column prop="name" label="姓名" width="180">
+          </el-table-column>
+          <el-table-column prop="address" label="地址"> </el-table-column>
+        </el-table>
+      </el-tab-pane>
+
+      <el-tab-pane label="Notification">
+        <h3>
+          $--notification-padding: 12px 24px 12px 8px !default;
+        </h3>
+        <h3>
+          $--notification-radius: 2px !default;
+        </h3>
+      </el-tab-pane>
     </el-tabs>
   </div>
 </template>
@@ -155,6 +180,7 @@ export default {
       message: "这是一条不会自动关闭的消息",
       duration: 0
     });
+    this.$message("这是一条会自动关闭的消息");
   }
 };
 </script>
