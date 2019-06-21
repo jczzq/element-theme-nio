@@ -79,7 +79,7 @@
 
       <el-tab-pane label="Dialog">
         <h3>
-          Dialog 缩小了内边距
+          Dialog
         </h3>
         <el-button type="text" @click="dialogVisible = true"
           >点击打开 Dialog</el-button
