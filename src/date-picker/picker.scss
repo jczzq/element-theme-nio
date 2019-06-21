@@ -12,6 +12,13 @@
     width: 220px;
   }
 
+  @include m((monthrange)) {
+    &.el-input,
+    &.el-input__inner {
+      width: 300px;
+    }
+  }
+
   @include m((daterange, timerange)) {
     &.el-input,
     &.el-input__inner {
@@ -72,7 +79,6 @@
     line-height: 32px;
     font-size: 14px;
     width: 5%;
-    min-width: 25px;
     color: $--color-text-primary;
   }
 
