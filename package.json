@@ -43,7 +43,7 @@
     "element-ui": "^2.8.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-sass": "^3.1.0",
